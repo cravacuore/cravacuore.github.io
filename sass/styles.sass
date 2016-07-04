@@ -5,7 +5,7 @@ $highlight: #0086FF
 $white: #ffffff
 
 html, body
-  margin: 7em
+  margin-top: 7em
   padding: 0
   font-family: Century Gothic, Helvetica, sans-serif
   background: $background
@@ -17,8 +17,7 @@ html, body
   height: 100%
 
 .content
-  max-width: 90%
-  width: 750px
+  width: 790px
   margin: 0 auto
 
 .title
@@ -39,7 +38,7 @@ html, body
     margin: 2em
     margin-right: 0
     border-right: 1px solid $highlight
-    padding-right: 1.5em
+    padding-right: 2em
     &:hover
       color: $highlight
   a.last
@@ -49,3 +48,30 @@ html, body
   color: $main
   font-size: 1.5em
   text-align: center
+
+// @media only screen and (max-width: 1250px)
+//   .content
+//     transform: scale(0.7)
+
+@media only screen and (max-width: 800px)
+  html, body
+    margin: 2em
+
+  .title
+    font-size: .6em
+
+  .content
+    width: 250px
+
+  .nav
+    a
+      font-size: .8em
+      padding-right: 0
+      margin: .3em
+      display: inline
+      border-right: 0px solid $highlight
+      &:hover
+        color: $highlight
+
+  .description
+    font-size: .7em

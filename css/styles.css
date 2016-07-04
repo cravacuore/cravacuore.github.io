@@ -1,5 +1,5 @@
 html, body {
-  margin: 7em;
+  margin-top: 7em;
   padding: 0;
   font-family: Century Gothic, Helvetica, sans-serif;
   background: #f7f8fb; }
@@ -11,8 +11,7 @@ html, body {
   height: 100%; }
 
 .content {
-  max-width: 90%;
-  width: 750px;
+  width: 790px;
   margin: 0 auto; }
 
 .title {
@@ -32,7 +31,7 @@ html, body {
   margin: 2em;
   margin-right: 0;
   border-right: 1px solid #0086FF;
-  padding-right: 1.5em; }
+  padding-right: 2em; }
   .nav a:hover {
     color: #0086FF; }
 .nav a.last {
@@ -42,5 +41,27 @@ html, body {
   color: #333;
   font-size: 1.5em;
   text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  html, body {
+    margin: 2em; }
+
+  .title {
+    font-size: 0.6em; }
+
+  .content {
+    width: 250px; }
+
+  .nav a {
+    font-size: 0.8em;
+    padding-right: 0;
+    margin: 0.3em;
+    display: inline;
+    border-right: 0px solid #0086FF; }
+    .nav a:hover {
+      color: #0086FF; }
+
+  .description {
+    font-size: 0.7em; } }
 
 /*# sourceMappingURL=styles.css.map */
