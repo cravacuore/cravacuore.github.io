@@ -50,16 +50,15 @@ html, body {
     font-size: 0.6em; }
 
   .content {
-    width: 250px; }
+    width: 247px; }
 
   .nav a {
     font-size: 0.8em;
     padding-right: 0;
-    margin: 0.3em;
+    padding-left: 0.6em;
+    margin: 0em;
     display: inline;
-    border-right: 0px solid #0086FF; }
-    .nav a:hover {
-      color: #0086FF; }
+    border-right: 0px; }
 
   .description {
     font-size: 0.7em; } }
