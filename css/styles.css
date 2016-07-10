@@ -11,6 +11,10 @@ html, body {
   height: 100%; }
 
 .content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   width: 790px;
   margin: 0 auto; }
 
@@ -22,7 +26,6 @@ html, body {
 
 .nav a {
   color: grey;
-  text-transform: capitalize;
   font-size: 1.5em;
   font-weight: 500;
   text-decoration: none;
@@ -43,9 +46,6 @@ html, body {
   text-align: center; }
 
 @media only screen and (max-width: 800px) {
-  html, body {
-    margin: 2em; }
-
   .title {
     font-size: 0.6em; }
 
