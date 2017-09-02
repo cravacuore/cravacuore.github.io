@@ -3,9 +3,8 @@ var grid = document.querySelector('.grid');
 
 var msnry = new Masonry( grid, {
   itemSelector: '.grid-item',
-  columnWidth: 400,
-  isFitWidth: true,
-  percentPosition: true
+  fitWidth: true,
+  gutter: 15
 });
 
 imagesLoaded( grid ).on( 'progress', function() {
