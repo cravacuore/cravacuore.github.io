@@ -71,14 +71,21 @@ html, body {
   text-align: left;
   margin-left: 15%; }
 
+.parent-grid {
+  max-width: 100em;
+  margin: 0 auto; }
+
 .grid {
   margin: 0 auto; }
 
 .grid-item {
-  width: 30em;
+  float: left;
+  width: 25em;
   margin-bottom: 1.2em; }
 
 .grid-item img {
-  max-width: 98%; }
+  max-width: 98%;
+  width: 30em;
+  height: auto; }
 
 /*# sourceMappingURL=styles.css.map */
