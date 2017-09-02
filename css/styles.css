@@ -67,8 +67,9 @@ html, body {
 
 .photos-title {
   color: grey;
-  font-size: 1.6em;
-  text-align: center; }
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 15%; }
 
 .grid {
   margin: 0 auto; }
