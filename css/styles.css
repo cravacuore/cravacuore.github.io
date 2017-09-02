@@ -74,8 +74,8 @@ html, body {
   margin: 0 auto; }
 
 .grid-item {
-  width: 400px;
-  margin-bottom: 15px; }
+  width: 30em;
+  margin-bottom: 1.2em; }
 
 .grid-item img {
   max-width: 98%; }
