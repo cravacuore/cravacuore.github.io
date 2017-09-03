@@ -34,8 +34,11 @@ body {
   margin: 2.6em;
   margin-right: 0;
   border-right: 1px solid #0086FF;
-  padding-right: 2.5em; }
+  padding-right: 2.5em;
+  outline: 0; }
   .nav a:hover {
+    color: #0086FF; }
+  .nav a:focus {
     color: #0086FF; }
 .nav a.last {
   border-right: 0px; }
