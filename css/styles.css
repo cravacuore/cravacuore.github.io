@@ -45,6 +45,32 @@ html, body {
   font-size: 1.5em;
   text-align: center; }
 
+.photos-body {
+  margin-top: 0em; }
+
+.photos-title {
+  color: grey;
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 15%; }
+
+.parent-grid {
+  max-width: 100em;
+  margin: 0 auto; }
+
+.grid {
+  margin: 0 auto;
+  max-width: 95%; }
+
+.grid-item {
+  width: 25em;
+  margin-bottom: 1.2em; }
+
+.grid-item img {
+  max-width: 98%;
+  width: 30em;
+  height: auto; }
+
 @media only screen and (max-width: 800px) {
   .title {
     font-size: 0.6em; }
@@ -62,30 +88,18 @@ html, body {
 
   .description {
     font-size: 0.7em; } }
-.photos-body {
-  margin-top: 0em; }
+@media only screen and (max-width: 870px) {
+  .parent-grid {
+    max-width: 98%;
+    margin: 0 auto; }
 
-.photos-title {
-  color: grey;
-  font-size: 1.2em;
-  text-align: left;
-  margin-left: 15%; }
+  .grid {
+    max-width: 95%; }
 
-.parent-grid {
-  max-width: 100em;
-  margin: 0 auto; }
+  .grid-item {
+    width: 100%; }
 
-.grid {
-  margin: 0 auto; }
-
-.grid-item {
-  float: left;
-  width: 25em;
-  margin-bottom: 1.2em; }
-
-.grid-item img {
-  max-width: 98%;
-  width: 30em;
-  height: auto; }
+  .grid-item img {
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
