@@ -65,5 +65,44 @@ body {
 
   .description {
     font-size: 0.7em; } }
+.photos-body {
+  margin-top: 0em; }
 
-/*# sourceMappingURL=head.css.map */
+.photos-title {
+  color: grey;
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 15%; }
+
+.parent-grid {
+  max-width: 100em;
+  margin: 0 auto; }
+
+.grid {
+  margin: 0 auto;
+  max-width: 95%; }
+
+.grid-item {
+  width: 25em;
+  margin-bottom: 1.2em; }
+
+.grid-item img {
+  max-width: 98%;
+  width: 30em;
+  height: auto; }
+
+@media only screen and (max-width: 870px) {
+  .parent-grid {
+    max-width: 98%;
+    margin: 0 auto; }
+
+  .grid {
+    max-width: 95%; }
+
+  .grid-item {
+    width: 100%; }
+
+  .grid-item img {
+    width: 100%; } }
+
+/*# sourceMappingURL=photos.css.map */
