@@ -49,16 +49,14 @@ body
     z-index: 1
     margin: 2.6em
     margin-right: 0
-    border-right: 1px solid $highlight
     padding-right: 2.5em
     outline: 0
+    &:not(.last) // Line between nav items, but not on last one
+      border-right: 1px solid $highlight
     &:hover
       color: $highlight
     &:focus
       color: $highlight
-
-  a.last
-    border-right: 0px
 
 .description
   color: $main
