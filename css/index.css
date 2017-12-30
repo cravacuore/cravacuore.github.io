@@ -24,6 +24,17 @@ body {
   font-size: 1.6em;
   text-align: center; }
 
+.title:hover {
+  animation: change-color 4s ease-in reverse infinite; }
+@keyframes change-color {
+  30% {
+    color: red; }
+  60% {
+    color: darkorange; }
+  90% {
+    color: violet; }
+  100% {
+    color: #333; } }
 .letter:hover {
   display: inline-block;
   animation: hang-animation 1.2s ease-in-out forwards;
